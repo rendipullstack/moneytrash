@@ -1,6 +1,7 @@
-## How to run
-- Migration <br> ```php artisan migrate```
-- Running seeders "First Installation" <br> ```php artisan db:seed```
+## How to run application
+- setting up .env file  <br> ```cp .env.example .env```
+- Running Migration database <br> ```php artisan migrate```
+- Running seeders database "First Installation" <br> ```php artisan db:seed```
 - Running seeder laravolt <br> ```php artisan laravolt:indonesia:seed```
 - Running local server <br> ```php artisan serve```
 
